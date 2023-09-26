@@ -834,13 +834,6 @@ nav button:hover {
 .our-blog .boxs .box-3 {
     position: relative;
 }
-@media (max-width:767px) {
-.our-blog .boxs .box-1, img,
-.our-blog .boxs .box-2, img,
-.our-blog .boxs .box-3, img{
-        /* width: 100%; */
-    }
-}
 .our-blog .boxs .box-1::before,
 .our-blog .boxs .box-2::before,
 .our-blog .boxs .box-3::before {
