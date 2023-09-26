@@ -834,7 +834,13 @@ nav button:hover {
 .our-blog .boxs .box-3 {
     position: relative;
 }
-
+@media (max-width:767px) {
+.our-blog .boxs .box-1, img,
+.our-blog .boxs .box-2, img,
+.our-blog .boxs .box-3, img{
+        /* width: 100%; */
+    }
+}
 .our-blog .boxs .box-1::before,
 .our-blog .boxs .box-2::before,
 .our-blog .boxs .box-3::before {
@@ -867,6 +873,12 @@ nav button:hover {
     padding-inline: 42px;
     padding-bottom: 86px;
     background-color: #C3E0BE;
+}
+
+@media (max-width:767px) {
+    .work-out {
+        padding-inline: 10px;
+    }
 }
 
 .work-out .text-content {
@@ -922,7 +934,13 @@ nav button:hover {
         margin-bottom: 40px;
     }
 }
-
+@media (max-width:767px) {
+    .work-out .boxs .box-1 img,
+    .work-out .boxs .box-2 img,
+    .work-out .boxs .box-3 img{
+        width: 100%;
+    }
+}
 .work-out .boxs .box-1::before,
 .work-out .boxs .box-2::before,
 .work-out .boxs .box-3::before {
